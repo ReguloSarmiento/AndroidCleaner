@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Cleaner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list_app">ListAppActivity</string>
+    <string name="botonDesintalar">Uninstall</string>
+    <string name="title_activity_llamadas_mensajes">LlamadasMensajesActivity</string>
+    <string name="limpiar">Clear History</string>
+    <string name="limpiarlogs">Clear Logs</string>
+    <string name="title_activity_cache">CacheActivity</string>
+    <string name="nohaycache">There is not applications to clear its cache.</string>
+    <string name="clearall">Clear All Cache</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="app">Applications:</string>
+    <string name="apps">0</string>
+    <string name="espacio">Occupied:</string>
+    <string name="cantidad">0 Bytes</string>
+    <string name="cache">Cache</string>
+    <string name="call">Call/Msg</string>
+    <string name="appmanager">App Manager</string>
+    <string name="histories">History</string>
+    
+<!--     ACTIVITY CLEAR CACHE     -->
+<string name="tituloclearcache">Clear Cache</string>
+<string name="Thereisnot">There is not data to clear</string>
+<string name="Yourdevice">Your device has been cleaned!</string>
+<string name="Itcleaned">It cleaned </string>
+<string name="ofCache"> of Cache History</string>
+<string name="aceptar">Accept</string>
+
+
+<!--     ACTIVITY CALLS AND MESSAGE     -->
+<string name="callandmessage">Calls and Messages</string>
+<string name="calls">Calls</string>
+<string name="incomming">Incoming Calls</string>
+<string name="outgoing">Outgoing</string>
+<string name="missed">Missed Calls</string>
+
+<string name="messages">Messages</string>
+<string name="received">Received</string>
+<string name="sent">Sent</string>
+
+<string name="need">Need to select at least an item!</string>
+<string name="cleaning">Cleaning</string>
+<string name="totallogs">Total Logs Deleted:</string>
+<string name="deleted">Deleted</string>
+<string name="ofcalls">of incoming/outgoing calls and missed</string>
+<string name="ofmessages">of received/sent messages</string>
+
+
+
+
+
+<!--     ACTIVITY MANAGER APPLICATIONS     -->
+<string name="manager">Applications Manager</string>
+<string name="needselect">Need to select an application!</string>
+<string name="uninstall">Uninstall</string>
+<string name="cancel">Cancel</string>
+
+
+<!--     ACTIVITY CLEAR HISTORY     -->
+<string name="history">History</string>
+<string name="browser">Browser</string>
+<string name="download">Downloads</string>
+<string name="files">Files</string>
+<string name="aplicacion">Applications</string>
+<string name="clipboard">Clipboard</string>
+<string name="doesmedia">Does Media File?</string>
+<string name="itwillremove">It will remove the music files, video and photography in your Downloads folder.</string>
+<string name="cannot">Once deleted these files, can not be recovered</string>
+<string name="incluir">Include</string>
+<string name="excluir">Exclude</string>
+<string name="itcleared">it cleared history browser</string>
+<string name="itclearedclipboard">it cleared history clipboard</string>
+<string name="ofd">of history downloads</string>
+<string name="omf">of media files</string>
+<string name="isc">It is cleared </string>
+<string name="removido">Removed</string>
+<string name="nohay">No registers to be removed</string>
+
+       <!-- Califica la aplicación -->
+    <string name="ratemyappdemo_info_label">To view the RateMyApp dialog, either click the button below or restart this app 3 times.</string> 
+	<string name="please">please take a moment to rate it. Thank you for your support!</string>
+	<string name="si">If you enjoy using</string>
+	<string name="califica">Rate</string>
+	<string name="ratemyappdemo_button_label">RateMyApp</string> 
+	<string name="ratemyapp_accept_button_label">Rate Now</string> 
+	<string name="ratemyapp_later_button_label">Remind me later</string> 
+	<string name="ratemyapp_cancel_button_label">No, thank you</string>
+
+</resources>

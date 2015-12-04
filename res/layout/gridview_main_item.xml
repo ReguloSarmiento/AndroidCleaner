@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/item_gridview_main"
+    android:gravity="center">
+ 
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="100dp"
+        android:layout_height="100dp" 
+        android:layout_marginLeft="8sp" 
+        android:layout_marginTop="8sp" 
+        android:layout_marginRight="8sp" 
+        android:layout_marginBottom="2sp"
+        android:src="@+drawable/ic_launcher">
+    </ImageView>    
+   
+     <TextView         
+         android:id="@+id/texto"     
+         android:ellipsize="end" 
+         android:gravity="center_horizontal" 
+         android:background="@null" 
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"   
+         android:layout_marginLeft="4.0dip"      
+         android:layout_marginTop="1.0dip" 
+         android:layout_marginRight="4.0dip"  
+         android:layout_marginBottom="4.0dip"
+         android:scrollHorizontally="true" 
+         android:textSize="15sp"
+         android:singleLine="true"    
+         android:textColor="#ffffff"     
+         android:textStyle="bold"
+         android:includeFontPadding="false">
+     </TextView>
+    
+ 
+</LinearLayout>

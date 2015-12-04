@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:background="#dde4e5"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content" >
+
+      <ImageView
+       android:id="@+id/imageView0"
+       android:layout_width="9.0dip"  
+       android:layout_height="fill_parent"  
+       android:contentDescription="@string/app_name"
+       android:background="@drawable/barra"  />
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/imageView0"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@+id/app_icon"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/info_size"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="#000000"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+    
+</RelativeLayout>

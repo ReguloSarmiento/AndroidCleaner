@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/linear_uno"
+        android:layout_width="match_parent"
+        android:layout_height="16sp"
+        android:layout_alignParentTop="true"
+        android:background="#12323d"
+        android:orientation="vertical"
+        android:layout_marginBottom="5sp" >
+        
+        <TextView
+            android:id="@+id/texto"
+            android:layout_marginLeft="2sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/numeroapp"
+            android:layout_marginLeft="3sp"
+            android:layout_toRightOf="@+id/texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="@string/apps"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/espacio"
+            android:layout_toRightOf="@+id/numeroapp"
+            android:layout_marginLeft="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/espacio"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+        
+         <TextView
+            android:id="@+id/cantidad"
+             android:layout_toRightOf="@+id/espacio"
+            android:layout_marginLeft="4sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cantidad"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+        
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp"
+        android:background="@drawable/bgmain"
+        android:layout_below="@+id/linear_uno"
+        android:layout_above="@+id/linear_dos"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:dividerHeight="2.5dip" />
+    
+    <RelativeLayout
+        android:id="@+id/linear_dos"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:background="@drawable/boton_verde"
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            style="@style/button_text"
+            android:text="@string/botonDesintalar" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Limpiador</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_list_app">ListAppActivity</string>
+    <string name="botonDesintalar">Desintalar</string>
+    <string name="title_activity_llamadas_mensajes">LlamadasMensajesActivity</string>
+    <string name="limpiar">Limpiar History</string>
+    <string name="limpiarlogs">Limpiar Registros</string>
+    <string name="title_activity_cache">CacheActivity</string>
+    <string name="nohaycache">No hay aplicaciones para limpiar su cache</string>
+    <string name="clearall">Limpiar toda la cache.</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="app">Aplicaciones:</string>
+    <string name="apps">0</string>
+    <string name="espacio">Ocupado:</string>
+    <string name="cantidad">0 Bytes</string>
+    <string name="cache">Cache</string>
+    <string name="call">Llamadas/Mensajes</string>
+    <string name="appmanager">Administrador App</string>
+    <string name="histories">History</string>
+    
+<!--     ACTIVITY CLEAR CACHE     -->
+<string name="tituloclearcache">Limpiar Cache</string>
+<string name="Thereisnot">No hay datos para limpiar</string>
+<string name="Yourdevice">Su dispositivo ha sido limpiado!</string>
+<string name="Itcleaned">Esta limpio</string>
+<string name="ofCache"> de Cache History</string>
+<string name="aceptar">Acceptar</string>
+
+
+<!--     ACTIVITY CALLS AND MESSAGE     -->
+<string name="callandmessage">LLamadas y Mensajes</string>
+<string name="calls">Llamadas</string>
+<string name="incomming">Llamadas Entrantes</string>
+<string name="outgoing">Llamadas Realizadas</string>
+<string name="missed">Llamadas Perdidas</string>
+
+<string name="messages">Mensajes</string>
+<string name="received">Recibidos</string>
+<string name="sent">Enviados</string>
+
+<string name="need">Necesitas seleccionar al menos un elemento!</string>
+<string name="cleaning">Limpiando</string>
+<string name="totallogs">Total Registros Eliminados:</string>
+<string name="deleted">Eliminados</string>
+<string name="ofcalls">de todas las llamadas</string>
+<string name="ofmessages">de todos los mensajes</string>
+
+
+
+
+
+<!--     ACTIVITY MANAGER APPLICATIONS     -->
+<string name="manager">Administrador Apps</string>
+<string name="needselect">Necesitas seleccionar una aplicacion!</string>
+<string name="uninstall">Desintalar</string>
+<string name="cancel">Cancelar</string>
+
+
+<!--     ACTIVITY CLEAR HISTORY     -->
+<string name="history">History</string>
+<string name="browser">Explorador</string>
+<string name="download">Descargas</string>
+<string name="files">Archivos</string>
+<string name="aplicacion">Aplicaciones</string>
+<string name="clipboard">Portapapeles</string>
+<string name="doesmedia">Archivos multimedia?</string>
+<string name="itwillremove">Seran removidos archivos de musicas y fotos en tu carpeta de descargas.</string>
+<string name="cannot">Una vez, elimidos los archivos no podran ser recuperados</string>
+<string name="incluir">Incluir</string>
+<string name="excluir">Excluir</string>
+<string name="itcleared">Esta limpio el historial del explorador</string>
+<string name="itclearedclipboard">Esta limpio el historial del portapales</string>
+<string name="ofd">del historial de descargas</string>
+<string name="omf">de archivos multimedia</string>
+<string name="isc">Esta limpio</string>
+<string name="removido">Removido</string>
+<string name="nohay">No hay registros para remover.</string>
+
+       <!-- Califica la aplicación -->
+    <string name="ratemyappdemo_info_label">To view the RateMyApp dialog, either click the button below or restart this app 3 times.</string> 
+	<string name="please">Por favor toma un momento para calificar la app. Gracias por tu apoyo!</string>
+	<string name="si">Si disfrutas usar </string>
+	<string name="califica">Califica</string>
+	<string name="ratemyappdemo_button_label">RateMyApp</string> 
+	<string name="ratemyapp_accept_button_label">Calificar Ahora</string> 
+	<string name="ratemyapp_later_button_label">Recuerdame mas tarde</string> 
+	<string name="ratemyapp_cancel_button_label">No, Gracias</string>
+
+</resources>
